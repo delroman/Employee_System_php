@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Century Gothic' ;
+    margin: 50px;
+    
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+th,td{
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;  
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+   
+}
+h1 {
+    text-align: center;
+    color:rgb(139, 5, 5);
+    padding-bottom: 50px;
+}
+th{
+    background-color:rgb(187, 23, 23);
+    color: azure;
+}
+.submit {
+  background-color: rgb(76, 131, 21);
+  padding: 7px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+}
+.submit:hover {
+    background-color: rgb(55, 95, 16);
+    color: azure;
+  }
+  .main-container {
+      display: flex;
+  }
+  .items-container {
+    width: 70%;
+  }
+  .actions-container{
+    width: 30%;
+    margin-left: 20px;
+  }
